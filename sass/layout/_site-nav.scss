@@ -1,0 +1,62 @@
+.site-nav {
+	.conteiners {
+		display: flex;
+		align-items: center;
+	}
+
+	.logo {
+		color: $main-text-color;
+		font-weight: 700;
+		padding-top: 24px;
+		padding-bottom: 25px;
+		margin-right: 93px;
+	}
+
+	.list {
+		display: flex;
+	}
+
+	.item:not(:last-child) {
+		margin-right: 50px;
+	}
+
+	.item-contact:not(:last-child) {
+		margin-right: 30px;
+	}
+
+	.link {
+		display: block;
+		padding-top: 32px;
+		padding-bottom: 32px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 1.14;
+		letter-spacing: 0.02em;
+
+		&:hover,
+		&:focus {
+			transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+			color: $acent-text-color;
+		}
+	}
+
+	.contacts {
+		margin-left: auto;
+	}
+}
+
+.item-contact-svg {
+	margin-right: 10px;
+	fill: currentColor;
+	vertical-align: middle;
+}
+
+/* nav contacts*/
+.contact-mail {
+	color: $secondary-text-color;
+}
+
+.contact-phone {
+	color: $secondary-text-color;
+}
