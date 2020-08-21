@@ -1,3 +1,3 @@
-# goit-markup-hw-06
+# goit-markup-hw-07
  Домашка
-https://ic3cld.github.io/goit-markup-hw-06/
+https://ic3cld.github.io/goit-markup-hw-07/
